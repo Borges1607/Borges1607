@@ -27,4 +27,4 @@
 </div>
 
  ##
- ![Snake animation](https://github.com/Borges1607/Borges1607/blob/output/github-contribution-grid-snake.svg)
+ ![Snake gif](https://github.com/Borges1607/Borges1607/blob/output/github-contribution-grid-snake.svg)
