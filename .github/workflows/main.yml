@@ -9,17 +9,22 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
-
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
       - uses: actions/checkout@v2
-
+        with:
+          persist-credentials: false
+          fetch-depth: 0
       - uses: Platane/snk@master
         id: snake-gif
         with:
-          github_user_name: Borges1607
+          github_user_name: Borges1607 github-actions[bot]
           gif_out_path: dist/github-contribution-grid-snake.gif
           svg_out_path: dist/github-contribution-grid-snake.svg
-
+          
       - run: git status
 
       - name: Push changes
