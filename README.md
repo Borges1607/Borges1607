@@ -18,6 +18,7 @@
   <img align="center" alt="Laravel" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg">
   <img align="center" alt="Alpine.js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/alpinejs/alpinejs-original.svg">
   <img align="center" alt="Livewire" height="30" width="90" src="https://raw.githubusercontent.com/livewire/livewire/main/art/readme_logo.png">
+  <img align="center" alt="Pest" height="40" width="50" src="https://avatars.githubusercontent.com/u/62078253?s=200&v=4">
 </div>
 
   ##
