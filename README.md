@@ -29,5 +29,5 @@
    <a href="https://www.linkedin.com/in/felipe-borges-98a556272" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blan"></a> 
 </div>
 
+<img src="https://raw.githubusercontent.com/Borges1607/Borges1607/output/snake.svg" alt="Snake animation" />
  ##
- ![Snake animation](https://github.com/Borges1607/Borges1607/blob/output/github-contribution-grid-snake.svg)
