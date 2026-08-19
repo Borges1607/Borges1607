@@ -34,10 +34,9 @@ I'm a Software Developer focused on web application development. I'm currently p
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 <div>
-  <a href="https://github.com/Borges1607">
-<!-- <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Borges1607&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/> -->
-<!-- <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Borges1607&layout=compact&langs_count=16&langs_count_private=true&theme=dracula"/> -->
-  <img height="180em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Borges1607&layout=compact&langs_count=16&theme=dracula"/>
+  <a>
+     <img height="180em" src="https://github-readme-stats-fast.vercel.app/api?username=Borges1607&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+     <img height="180em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Borges1607&layout=compact&langs_count=16&theme=dracula"/>
   </a>
 </div>
 
