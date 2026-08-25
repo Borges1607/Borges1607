@@ -1,4 +1,4 @@
-name: snake
+name: Generate snake animation
 
 on:
   schedule:
@@ -7,29 +7,20 @@ on:
   push:
     branches: [main]
 
-permissions:
-  contents: write
-
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
+      - name: Gerar a animação
+        uses: Platane/snk@v3
+        id: snake-gif
         with:
-          node-version: 22
-
-      - name: Gerar snake combinada (GitHub + Bitbucket)
-        env:
-          GH_USER: Borges1607
-          GH_TOKEN: ${{ secrets.SNAKE_GH_TOKEN }}
-          BB_WORKSPACE: ${{ secrets.BB_WORKSPACE }}
-          BB_USER: ${{ secrets.BB_USER }}
-          BB_APP_PASSWORD: ${{ secrets.BB_APP_PASSWORD }}
-          BB_EMAILS: ${{ secrets.BB_EMAILS }}
-          OUT_DIR: dist
-        run: node scripts/generate-snake.mjs
+          github_user_name: Borges1607
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+            dist/snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
       - name: Publicar no branch output
         uses: crazy-max/ghaction-github-pages@v4
