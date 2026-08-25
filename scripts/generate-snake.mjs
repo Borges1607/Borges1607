@@ -83,6 +83,11 @@ async function bb(url) {
   const res = await fetch(url, {
     headers: { Authorization: `Basic ${auth}`, Accept: "application/json" },
   });
+  if (res.status === 401)
+    throw new Error(
+      "Bitbucket 401: verifique se BB_USER é o e-mail da conta Atlassian " +
+        "e BB_APP_PASSWORD é um API token válido."
+    );
   if (!res.ok) throw new Error(`Bitbucket ${res.status}: ${await res.text()}`);
   return res.json();
 }
