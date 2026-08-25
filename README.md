@@ -42,5 +42,5 @@ I'm a Software Developer focused on web application development. I'm currently p
 
   ##
 
-<img src="https://raw.githubusercontent.com/Borges1607/Borges1607/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/Borges1607/Borges1607/output/snake-dark.svg" alt="Snake animation" />
 
